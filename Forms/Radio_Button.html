@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/assets/ishq.mp4">
+        <!--
+            Radio Button for one choice question 
+        -->
+        <label for="male">Male :</label>
+        <input type="radio" id="male" name="gender" value="Male"> <br>
+
+        <label for="female">Female :</label>
+        <input type="radio" id="female" name="gender" value="Female"> <br>
+
+        <label for="other">Other :</label>
+        <input type="radio" id="other" name="gender" value="Other"> <br>
+
+        <!--
+            Check box for Multiple choice question
+        -->
+        <hr>
+        <label for="Apple">Apple</label>
+        <input type="checkbox" id="Apple" value="Apple" name="fruit"> <br>
+
+        <label for="mango">Mango</label>
+        <input type="checkbox" id="mango" value="Mango" name="fruit"> <br>
+
+        <label for="pineapple">Pineapple</label>
+        <input type="checkbox" id="pineapple" value="Pineapple" name="fruit"> <br>
+
+        <!--
+            Select from givin options 
+        -->
+
+        <label for="country"> select your country :</label>
+        <select id="country" name="country">
+            <option value="India">India</option>
+            <option value="Uk">Uk</option>
+            <option value="Us">Us</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <!--
+            Define a TextArea of paragraph
+        -->
+        <hr>
+
+        <textarea id="story" value="story" rows="4" column="20">Please write a story</textarea>
+    </form>
+    
+</body>
+</html>
